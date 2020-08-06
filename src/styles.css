@@ -1,0 +1,172 @@
+html{
+  background:
+/*      url('./assets/pc_logo_+.svg') repeat center,
+      linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+      linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+      linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+      linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+      #ffffc7ff;*/
+      linear-gradient(245deg, #ec0e0e00 55%, rgba(255,255,255,.8) 75%) 0 0,
+      linear-gradient(116deg, #ffffc7 55%, rgba(255,255,255,.8) 75%) 9px -15px,
+      linear-gradient(245deg, transparent 55%, #482db3 75%) 7px -15px,
+      #ddeec7;
+  background-size: 18px;
+}
+
+.App {
+  
+  justify-self: center;
+}
+
+#root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  height: 100vh;
+  place-items: center;
+  font-size: 18px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  
+  background-color: #ffffc7ff;
+  text-align: center;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border:1.6px solid #5feea4;
+}
+h1 {
+  margin: 0;
+  padding-bottom: 18px;
+  font-size: 18px;
+}
+ .green{
+  background-color: green !important;
+}
+.info {
+  
+  
+  margin-bottom: 12px;
+  background-color: #ddd;
+  padding: 6px 6px;
+  
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  
+}
+.pad-top-4{
+  padding-top: 8px;
+}
+
+.big-font{
+  font-size: 62px;
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.info a {
+  color: black;
+}
+.box {
+  background-color: coral;
+  width: 30%;
+  display:inline-block;
+  margin:10px 0;
+  border-radius:5px;
+}
+input,
+button {
+  padding: 9px;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+input.full-width {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+#dealer{
+  box-sizing: border-box;
+  margin-left:18%;
+  padding-left:2%;
+  border-left: 5px dashed #5feea4;
+}
+.con-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.h1-b4{
+  padding-bottom: 4px;
+}
+
+
+ .header {
+  /*background: lightpink;*/
+  height: 120px;
+  display: grid;
+  grid-gap: 1rem;
+  
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+main {
+  background: coral;
+}
+
+.footer {
+  display: grid;
+grid-template-columns: repeat(6,1fr);
+}
+
+.gtc-2{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.header .left-side {
+  justify-content: space-between;
+
+  grid-column: 1 / 2;
+}
+.left-side img{
+  height: 120px;
+
+}
+.header .right-side {
+  justify-content: space-between;
+
+  grid-column: 3 / 4;
+}
+.lemon{
+  background-color: #f9f9b9;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.visual {
+  height: 100px;
+  width: 100%;
+}
+
+ .card {
+  -webkit-box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  -moz-box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  box-shadow: 2px -2px 9px -1px rgba(0,0,0,1);
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+}
+
+.scanvas{
+  
+  text-align: left !important;
+  padding: 0;
+}
+
+
